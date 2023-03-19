@@ -1,0 +1,33 @@
+.info {
+  text-align: left;
+  padding: 40px;
+  padding-top: 70px;
+  background-color: #393E46;
+  color: #eee;
+}
+
+.info h2 {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+}
+
+.infoDetailsContainer {
+  margin: 40px 0;
+}
+
+.infoDetail {
+  font-weight: 600;
+}
+
+.infoIconsContainer {
+  display: flex;
+  width: 100%;
+}
+
+.infoIcon {
+  font-size: 3rem;
+  color: #fd7014;
+  margin-right: 20px;
+  cursor: pointer;
+}

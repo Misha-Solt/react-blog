@@ -1,0 +1,10 @@
+.heroBlock {
+  height: 500px;
+  width: 100%;
+  background-image: url(https://picsum.photos/2000/600);
+}
+.heroText{
+  color: #eee;
+  font-size: 15rem;
+
+}

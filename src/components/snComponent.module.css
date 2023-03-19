@@ -1,0 +1,25 @@
+.sn{
+    width: 100%;
+}
+
+.snHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #393E46;
+    width: 100%;
+    color: #aaa;
+    height: 60px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.snPosts{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px;
+}
+.snPosts div{
+    display: flex;
+    justify-content:space-evenly;
+    margin-bottom: 60px;
+}

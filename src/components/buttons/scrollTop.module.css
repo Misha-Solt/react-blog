@@ -1,0 +1,23 @@
+.btn {
+  height: 40px;
+  width: 40px;
+  border-radius: 5px;
+  color: #eee;
+  cursor: pointer;
+  background-color: #fd7014;
+  box-shadow: 0 0 15px rgb(175, 174, 174);
+  z-index: 100;
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #aaa;
+}
+
+.btn.show {
+  opacity: 1;
+  visibility: visible;
+}
