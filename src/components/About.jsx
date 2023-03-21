@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import Contacts from './aboutComponents/Contacts/Contacts'
 import Education from './aboutComponents/Education'
 import Hero from './aboutComponents/Hero'
-import Sertificates from './aboutComponents/Sertificates'
+import Certificates from './aboutComponents/Certificates'
 import WorkExp from './aboutComponents/WorkExp'
 import ScrollTop from './buttons/ScrollTop'
 import styles from './about.module.css'
@@ -14,7 +14,7 @@ const About = () => {
   const hero = useRef()
   const education = useRef()
   const workExp = useRef()
-  const sertificates = useRef()
+  const certificates = useRef()
   const contacts = useRef()
 
   // Scroling on page
@@ -46,8 +46,8 @@ const About = () => {
           <Link to="experience" onClick={() => scrollToSection(workExp)}>
             Work experience
           </Link>
-          <Link to="sertificates" onClick={() => scrollToSection(sertificates)}>
-            Sertificates
+          <Link to="certificates" onClick={() => scrollToSection(certificates)}>
+            Certificates
           </Link>
           <Link to="contacts" onClick={() => scrollToSection(contacts)}>
             Contacts
@@ -63,8 +63,8 @@ const About = () => {
       <div ref={workExp}>
         <WorkExp />
       </div>
-      <div ref={sertificates}>
-        <Sertificates />
+      <div ref={certificates}>
+        <Certificates />
       </div>
       <div ref={contacts}>
         <Contacts />

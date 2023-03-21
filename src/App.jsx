@@ -4,7 +4,7 @@ import About from './components/About'
 import Contacts from './components/aboutComponents/Contacts/Contacts'
 import Education from './components/aboutComponents/Education'
 import Hero from './components/aboutComponents/Hero'
-import Sertificates from './components/aboutComponents/Sertificates'
+import Certificates from './components/aboutComponents/Certificates'
 import WorkExp from './components/aboutComponents/WorkExp'
 import Blog from './components/Blog'
 import NotFound from './components/NotFound'
@@ -24,7 +24,7 @@ function App() {
               <Route path="hero" element={<Hero />}></Route>
               <Route path="education" element={<Education />}></Route>
               <Route path="experience" element={<WorkExp />}></Route>
-              <Route path="sertificates" element={<Sertificates />}></Route>
+              <Route path="certificates" element={<Certificates />}></Route>
               <Route path="contacts" element={<Contacts />}></Route>
             </Route>
             <Route path="*" element={<NotFound />} />
