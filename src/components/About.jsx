@@ -28,7 +28,7 @@ const About = () => {
   // GoogleMap component
   const { isLoaded } = useLoadScript({
     // This is not great way to save key. Learn more about: "googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,"
-    googleMapsApiKey: 'AIzaSyA2n355dbFgIAjL-3XpDeuuIBsknLnhSVU',
+    googleMapsApiKey: 'key',
   })
   if (!isLoaded) return <div>Is loading...</div>
 
