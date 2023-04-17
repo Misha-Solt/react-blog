@@ -1,4 +1,4 @@
-# React Project for a doctor's website with blog.
+# React Project for blog.
 
 ## Available Scripts
 
